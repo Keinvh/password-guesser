@@ -16,7 +16,7 @@ driver = "reserved"
 
 def userExists(username):
 	try:
-		driver.get("https://www.roblox.com/"+users+id+profile)
+		driver.get("https://www.roblox.com/"59753)
 		assert (("Page cannot be found or no longer exists") not in driver.title)
 	except AssertionError:
 		print 'user: "%s" does not exist, trying with the next!' %username
